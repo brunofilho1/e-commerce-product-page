@@ -49,6 +49,8 @@ function WarrantySection() {
                     <p className="description">Sem garantia</p>
                 </span>
             </div>
+
+            <a href="">Saiba mais sobre garantia</a>
         </Section>
     )
 };
@@ -67,7 +69,7 @@ function Info() {
         - 1x LED <br/>
         - 1x LED <br/>
         <br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam impedit beatae quod eius exercitationem porro expedita, voluptatem temporibus sequi nisi voluptas? Ea libero nulla hic neque fugit, placeat maiores?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam impedit beatae quod eius exercitationem porro expedita, voluptatem temporibus sequi nisi voluptas? Ea libero nulla hic neque fugit, placeat maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam impedit beatae quod eius exercitationem porro expedita, voluptatem temporibus sequi nisi voluptas? Ea libero nulla hic neque fugit, placeat maiores?</p>
     </Description>
     )
 }
