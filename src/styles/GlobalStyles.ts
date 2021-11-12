@@ -30,10 +30,10 @@ export default createGlobalStyle`
     --color-search-placeholder: #AAAAAA;
     --color-border: #ddd;
 
-    --reputation-1: #FFE7E6;
-    --reputation-2: #FFF4E7;
-    --reputation-3: #FFFDE5;
-    --reputation-4: #F3FEE0;
+    --reputation-1: #ffb8b5;
+    --reputation-2: #ffe3c2;
+    --reputation-3: #fffdc2;
+    --reputation-4: #e6ffba;
     --reputation-5: #00A650;
 
     --panel-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
