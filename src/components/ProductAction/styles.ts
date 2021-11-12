@@ -33,6 +33,10 @@ export const HeartIcon = styled(HiOutlineHeart)`
     margin-left: 16px;
     cursor: pointer;
     flex-shrink: 0;
+
+    &:hover {
+        padding: 1px;
+    }
 `;
 
 export const DispatchTag = styled.div`
@@ -137,6 +141,10 @@ export const Button = styled.button<ButtonProps>`
     border: ${props => props.solid ? 'none' : '1px solid var(--color-blue)'};
 
     cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.1);
+    }
 
 `;
 
