@@ -19,6 +19,7 @@ const Footer: React.FC = () => {
       <FooterDiv>
         <Div className="logo">
           <h1>CompanyLogo</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, esse eos quas porro provident nostrum unde rem in ratione dolore commodi id incidunt cupiditate ipsum?</p>
         </Div>
         <Div>
           <Icons>

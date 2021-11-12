@@ -29,7 +29,9 @@ export const DivButton = styled.div`
   gap: 10px;
 `;
 export const Div = styled.div`
-
+  &.logo {
+    width: 300px;
+  }
 `;
 
 type ButtonProps = {solid?: boolean}
