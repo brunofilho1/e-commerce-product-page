@@ -140,7 +140,23 @@ export const Button = styled.button<ButtonProps>`
 
 `;
 
-export const Benefits = styled.div``;
+export const Benefits = styled.ul`
+    margin-top: 16px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+
+    > li {
+        display: flex;
+
+        p {
+            margin-left: 10px;
+            color: var(--color-gray);
+            font-size: 14px;
+        }
+    }
+`;
 
 export const ShieldIcon = styled(HiOutlineShieldCheck)`
     width: 20px;
