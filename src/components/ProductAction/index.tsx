@@ -62,7 +62,7 @@ const ProductAction: React.FC = () => {
             <Benefits>
                 <li>
                     <ShieldIcon />
-                    <p>Compra farantida, receba o produto que está esperando ou devolvemos o seu dinheiro.</p>
+                    <p>Compra garantida, receba o produto que está esperando ou devolvemos o seu dinheiro.</p>
                 </li>
             </Benefits>
         </Container>
