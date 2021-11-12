@@ -22,6 +22,10 @@ export const FooterDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media screen and (min-width: 1580px) {
+    width: 68%;
+  }
 `;
 
 export const DivButton = styled.div`
