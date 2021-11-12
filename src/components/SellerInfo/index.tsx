@@ -59,3 +59,4 @@ const SellerInfo: React.FC = () => {
 }
 
 export default SellerInfo;
+
