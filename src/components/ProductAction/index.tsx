@@ -10,7 +10,9 @@ import {
     PriceRow,
     InstallmentsInfo,
     StockStatus,
+    Delivery,
     MethodCard,
+    PaymentIcon,
     CheckIcon,
     Actions,
     Button,
@@ -49,7 +51,7 @@ const ProductAction: React.FC = () => {
                 <p>574 itens em estoque</p>
             </StockStatus>
 
-            <MethodCard>
+            <Delivery>
                 <CheckIcon />
 
                 <div>
@@ -58,6 +60,16 @@ const ProductAction: React.FC = () => {
                     <a href="#" className="more">
                         Ver mais opções
                     </a>
+                </div>
+            </Delivery>
+
+            <MethodCard>
+                <div id="payment-title">
+                    <PaymentIcon />
+                    <span>Formas de pagamento</span>
+                </div>
+                <div id="payment-icons">
+                    <img src="https://img.icons8.com/fluency/48/000000/mastercard.png"/>
                 </div>
             </MethodCard>
 

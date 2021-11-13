@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { HiOutlineHeart, HiOutlineCheck, HiOutlineShieldCheck } from 'react-icons/hi'
+import { HiOutlineHeart, HiOutlineCheck, HiOutlineShieldCheck } from 'react-icons/hi';
+import { MdPayment } from 'react-icons/md';
 
 export const Container = styled.div`
     padding: 32px;
@@ -100,7 +101,7 @@ export const StockStatus = styled.div`
     }
 `;
 
-export const MethodCard = styled.div`
+export const Delivery = styled.div`
     margin-top: 18px;
     display: flex;
     
@@ -124,6 +125,28 @@ export const MethodCard = styled.div`
             color: var(--color-blue);
             font-size: 14px;
             font-weight: 600;
+        }
+    }
+`;
+
+export const PaymentIcon = styled(MdPayment)`
+    width: 24px;
+    height: 24px;
+    color: var(--color-green);
+`;
+
+export const MethodCard = styled.div`
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+
+    #payment-title {
+        display: flex;
+        align-items: center;
+
+        > span {
+            margin-left: 8px;
+            color: var(--color-green);
         }
     }
 `;
