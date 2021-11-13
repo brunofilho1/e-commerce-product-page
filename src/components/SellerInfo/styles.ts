@@ -16,6 +16,32 @@ export const Title = styled.div`
     font-weight: 600;
 `;
 
+export const Seller = styled.div`
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+
+    > img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    > div > a {
+        font-size: 15px;
+        text-decoration: none;
+        color: var(--color-black);
+    }
+
+    > div > span {
+        font-size: 14px;
+        font-weight: normal;
+        color: var(--color-gray);
+    }
+`;
+
 export const LocationCard = styled.div`
     display: flex;
     align-items: center;

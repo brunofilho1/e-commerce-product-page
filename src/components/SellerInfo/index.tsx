@@ -1,7 +1,8 @@
 import React from 'react';
 import { 
     Container, 
-    Title, 
+    Title,
+    Seller,
     LocationCard, 
     LocationIcon, 
     ReputationCard, 
@@ -17,9 +18,16 @@ const SellerInfo: React.FC = () => {
         <Container>
             <Title>Informações sobre o vendedor</Title>
 
+            <Seller>
+                <img src="https://github.com/brunofilho1.png" alt="" />
+                <div>
+                    <a href="#"><h3>Bruno Filho</h3></a>
+                    <span>Vendo camisas, calças, moletons, blusas e mais.</span>
+                </div>
+            </Seller>
+
             <LocationCard>
                 <LocationIcon />
-
                 <div>
                     <p>Localização</p>
                     <strong>São Paulo — SP</strong>

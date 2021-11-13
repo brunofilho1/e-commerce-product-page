@@ -71,7 +71,7 @@ const Product: React.FC = () => {
                             dots={true}
                             pauseIconColor="white"
                             pauseIconSize="40px"
-                            slideBackgroundColor="darkgrey"
+                            slideBackgroundColor="white"
                             slideImageFit="cover"
                             thumbnails={true}
                             thumbnailWidth="100px"
