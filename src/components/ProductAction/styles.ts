@@ -7,7 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
 `;
 
-export const Condition = styled.div`
+export const ProductKind = styled.div`
     font-size: 14px;
     color: var(--color-gray);
     margin-bottom: 16px;
@@ -39,7 +39,7 @@ export const HeartIcon = styled(HiOutlineHeart)`
     }
 `;
 
-export const DispatchTag = styled.div`
+export const Condition = styled.div`
     margin-top: 12px;
     background: var(--color-blue);
     color: var(--color-white);
@@ -78,8 +78,26 @@ export const InstallmentsInfo = styled.div`
 `;
 
 export const StockStatus = styled.div`
+    display: flex;
+    flex-direction: column;
     margin-top: 24px;
-    font-size: 18px;
+
+    > div {
+        display: flex;
+        align-items: center;
+        color: var(--color-green);
+
+        span {
+            margin-left: 8px;
+        }
+    }
+
+    > p {
+        margin-top: 5px;
+        color: var(--color-gray);
+        font-size: 14px;
+        margin-left: 34px;
+    }
 `;
 
 export const MethodCard = styled.div`

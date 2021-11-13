@@ -2,10 +2,10 @@ import React from 'react';
 
 import { 
     Container,
-    Condition,
+    ProductKind,
     Row,
     HeartIcon,
-    DispatchTag,
+    Condition,
     PriceCard,
     PriceRow,
     InstallmentsInfo,
@@ -21,14 +21,14 @@ import {
 const ProductAction: React.FC = () => {
     return (
         <Container>
-            <Condition>Novo</Condition>
+            <ProductKind>Roupas, Calçados e Acessórios</ProductKind>
 
             <Row>
                 <h1>Camiseta Branca de Marca Desconhecida</h1>
                 <HeartIcon />
             </Row>
 
-            <DispatchTag>Enviando normalmente</DispatchTag>
+            <Condition>Produto Novo</Condition>
 
             <PriceCard>
                 <PriceRow>
@@ -40,14 +40,21 @@ const ProductAction: React.FC = () => {
                 <InstallmentsInfo>em 3x de R$ 11,67</InstallmentsInfo>
             </PriceCard>
 
-            <StockStatus>Estoque disponível</StockStatus>
+            <StockStatus>
+                <div>
+                    <CheckIcon />
+                    <span>Estoque disponível</span>
+                </div>
+
+                <p>574 itens em estoque</p>
+            </StockStatus>
 
             <MethodCard>
                 <CheckIcon />
 
                 <div>
                     <span className="title">Frete grátis</span>
-                    <span className="details">Benefício Lorem Ipsum</span>
+                    <span className="details">Para todos estados brasileiros</span>
                     <a href="#" className="more">
                         Ver mais opções
                     </a>
@@ -62,7 +69,7 @@ const ProductAction: React.FC = () => {
             <Benefits>
                 <li>
                     <ShieldIcon />
-                    <p>Compra garantida, receba o produto que está esperando ou devolvemos o seu dinheiro.</p>
+                    <p>Compre com segurança, receba o produto que está esperando ou devolvemos o seu dinheiro.</p>
                 </li>
             </Benefits>
         </Container>
