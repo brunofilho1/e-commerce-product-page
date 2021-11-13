@@ -7,7 +7,6 @@ export const Container = styled.div`
   height: 30vh;
   background: var(--color-header);
 
-  border-bottom: 1px solid var(--color-border);
   color: white;
 
   display: flex;

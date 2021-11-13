@@ -38,11 +38,12 @@ export const Panel = styled.div`
 export const Column = styled.div`
     &:first-child {
         border-right: 1px solid var(--color-border);
-
     }
 `;
 
 export const Gallery = styled.div`
+    width: 100%;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +52,8 @@ export const Gallery = styled.div`
     > img {
         height: 73%;
     }
+
+
 `;
 
 export const Section = styled.div`
@@ -98,6 +101,8 @@ export const Section = styled.div`
 export const Description = styled.div`
     border-top: 1px solid var(--color-border);
     padding: 44px 32px;
+
+    margin-top: 200px;
 
     > h2 {
         font-size: 24px;
