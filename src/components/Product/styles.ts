@@ -52,8 +52,6 @@ export const Gallery = styled.div`
     > img {
         height: 73%;
     }
-
-
 `;
 
 export const Section = styled.div`

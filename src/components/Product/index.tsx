@@ -1,5 +1,4 @@
 import React from 'react';
-import tshirtImage from '../../assets/tshirt.png';
 import SellerInfo from '../../components/SellerInfo';
 import ProductAction from '../ProductAction';
 import { Container, Row, Panel, Column, Gallery, Section, Description } from './styles';
@@ -77,10 +76,10 @@ const Product: React.FC = () => {
                             thumbnails={true}
                             thumbnailWidth="100px"
                             style={{
-                            textAlign: "center",
-                            maxWidth: "850px",
-                            maxHeight: "500px",
-                            margin: "40px auto",
+                                textAlign: "center",
+                                maxWidth: "850px",
+                                maxHeight: "500px",
+                                margin: "40px auto",
                             }}
                         />
                     </Gallery>
