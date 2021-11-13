@@ -101,9 +101,19 @@ export const StockStatus = styled.div`
     }
 `;
 
+export const DeliveryIcon = styled.div`
+    display: flex;
+
+    img {
+        width: 40px;
+    }
+`;
+
 export const Delivery = styled.div`
     margin-top: 18px;
     display: flex;
+    align-items: center;
+    margin-left: -8px;
     
     > div {
         margin-left: 8px;
@@ -149,6 +159,32 @@ export const MethodCard = styled.div`
             color: var(--color-green);
         }
     }
+
+    .details {
+            margin-top: 5px;
+            color: var(--color-gray);
+            font-size: 14px;
+        }
+
+    .more {
+        margin-top: 5px;
+        text-decoration: none;
+        color: var(--color-blue);
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #payment-icons-div {
+        display: flex;
+        align-items: center;
+    }
+    .payment-icon {
+        width: 50px;
+
+        & + .payment-icon {
+            margin-left: 5px;
+        }
+    }
 `;
 
 export const CheckIcon = styled(HiOutlineCheck)`
@@ -157,6 +193,8 @@ export const CheckIcon = styled(HiOutlineCheck)`
     color: var(--color-green);
 
 `;
+
+
 
 export const Actions = styled.div`
     margin-top: 16px;
@@ -198,6 +236,7 @@ export const Benefits = styled.ul`
 
     > li {
         display: flex;
+        align-items: center;
 
         p {
             margin-left: 10px;
@@ -210,7 +249,7 @@ export const Benefits = styled.ul`
 export const ShieldIcon = styled(HiOutlineShieldCheck)`
     width: 20px;
     height: 20px;
-    color: var(--color-gray);
+    color: var(--color-green);
 
     flex-shrink: 0;
 

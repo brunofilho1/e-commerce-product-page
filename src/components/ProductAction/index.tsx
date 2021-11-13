@@ -11,6 +11,7 @@ import {
     InstallmentsInfo,
     StockStatus,
     Delivery,
+    DeliveryIcon,
     MethodCard,
     PaymentIcon,
     CheckIcon,
@@ -52,14 +53,13 @@ const ProductAction: React.FC = () => {
             </StockStatus>
 
             <Delivery>
-                <CheckIcon />
+                <DeliveryIcon>
+                    <img src="https://img.icons8.com/plasticine/100/000000/free-shipping.png"/>
+                </DeliveryIcon>
 
                 <div>
                     <span className="title">Frete grátis</span>
                     <span className="details">Para todos estados brasileiros</span>
-                    <a href="#" className="more">
-                        Ver mais opções
-                    </a>
                 </div>
             </Delivery>
 
@@ -68,9 +68,17 @@ const ProductAction: React.FC = () => {
                     <PaymentIcon />
                     <span>Formas de pagamento</span>
                 </div>
-                <div id="payment-icons">
-                    <img src="https://img.icons8.com/fluency/48/000000/mastercard.png"/>
+                <span className="details">Aceitamos qualquer dessas formas</span>
+                <div id="payment-icons-div">
+                    <img className="payment-icon" src="https://img.icons8.com/fluency/48/000000/mastercard.png"/>
+                    <img className="payment-icon" src="https://img.icons8.com/color/48/000000/visa.png"/>
+                    <img className="payment-icon" src="https://cdn0.iconfinder.com/data/icons/50-payment-system-icons-2/480/Boleto.png"/>
+                    <img className="payment-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Hipercard_logo.svg"/>
+                    <img className="payment-icon" src="https://logodownload.org/wp-content/uploads/2017/04/elo-logo-1-1.png" alt="" />
                 </div>
+                <a href="#" className="more">
+                    Ver mais opções
+                </a>
             </MethodCard>
 
             <Actions>
