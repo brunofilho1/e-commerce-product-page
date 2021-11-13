@@ -72,9 +72,9 @@ const ProductAction: React.FC = () => {
                 <div id="payment-icons-div">
                     <img className="payment-icon" src="https://img.icons8.com/fluency/48/000000/mastercard.png"/>
                     <img className="payment-icon" src="https://img.icons8.com/color/48/000000/visa.png"/>
+                    <img className="payment-icon" src="https://www.keune.com.br/images/icons/card_elo.png" alt="" />
                     <img className="payment-icon" src="https://cdn0.iconfinder.com/data/icons/50-payment-system-icons-2/480/Boleto.png"/>
-                    <img className="payment-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Hipercard_logo.svg"/>
-                    <img className="payment-icon" src="https://logodownload.org/wp-content/uploads/2017/04/elo-logo-1-1.png" alt="" />
+                    <img className="payment-icon" src="https://logodownload.org/wp-content/uploads/2020/02/pix-bc-logo-3.png"/>
                 </div>
                 <a href="#" className="more">
                     Ver mais opções
