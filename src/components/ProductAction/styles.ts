@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import { HiOutlineHeart, HiOutlineCheck, HiOutlineShieldCheck } from 'react-icons/hi';
+import { HiOutlineHeart, HiOutlineCheck, HiOutlineShieldCheck, HiOutlineShoppingCart } from 'react-icons/hi';
 import { MdPayment } from 'react-icons/md';
+import { RiShareForward2Fill } from 'react-icons/ri';
 
 export const Container = styled.div`
     padding: 32px;
@@ -20,13 +21,47 @@ export const Row = styled.div`
     justify-content: space-between;
 
     > h1 {
-        width: 100%;
+        width: 75%;
         font-size: 26px;
         font-weight: 600;
+    }
+
+    > div {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        padding: 0;
     }
 `;
 
 export const HeartIcon = styled(HiOutlineHeart)`
+    width: 28px;
+    height: 28px;
+    color: var(--color-blue);
+
+    margin-left: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
+
+    &:hover {
+        padding: 1px;
+    }
+`;
+export const ShareIcon = styled(RiShareForward2Fill)`
+    width: 28px;
+    height: 28px;
+    color: var(--color-blue);
+
+    margin-left: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
+
+    &:hover {
+        padding: 1px;
+    }
+`;
+
+export const CartIcon = styled(HiOutlineShoppingCart)`
     width: 28px;
     height: 28px;
     color: var(--color-blue);

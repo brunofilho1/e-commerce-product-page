@@ -5,6 +5,8 @@ import {
     ProductKind,
     Row,
     HeartIcon,
+    ShareIcon,
+    CartIcon,
     Condition,
     PriceCard,
     PriceRow,
@@ -28,7 +30,11 @@ const ProductAction: React.FC = () => {
 
             <Row>
                 <h1>Camiseta Branca de Marca Desconhecida</h1>
-                <HeartIcon />
+                <div>
+                    <HeartIcon title="Salvar como favorito" />
+                    <ShareIcon title="Compartilhar" />
+                    <CartIcon title="Adicionar ao carrinho" />
+                </div>
             </Row>
 
             <Condition>Produto Novo</Condition>
@@ -88,7 +94,8 @@ const ProductAction: React.FC = () => {
 
             <Benefits>
                 <li>
-                    <ShieldIcon />
+                    {/* <ShieldIcon /> */}
+                    <img src="https://img.icons8.com/bubbles/50/000000/shield.png"/>
                     <p>Compre com segurança, receba o produto que está esperando ou devolvemos o seu dinheiro.</p>
                 </li>
             </Benefits>
