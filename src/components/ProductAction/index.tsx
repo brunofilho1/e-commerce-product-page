@@ -29,7 +29,7 @@ const ProductAction: React.FC = () => {
             <ProductKind>Roupas, Calçados e Acessórios</ProductKind>
 
             <Row>
-                <h1>Camiseta Branca de Marca Desconhecida</h1>
+                <h1>Camisetas de Diversas Cores Puro Algodão Original</h1>
                 <div>
                     <HeartIcon title="Salvar como favorito" />
                     <ShareIcon title="Compartilhar" />

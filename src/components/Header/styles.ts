@@ -11,6 +11,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 `;
 
 export const HeaderDiv = styled.div`
@@ -23,6 +24,10 @@ export const HeaderDiv = styled.div`
   justify-content: space-around;
 
   padding-bottom: 8px;
+  @media screen and (max-width: 1280px) {
+    justify-content: space-between;
+    padding: 0px 30px;
+  }
 `;
 
 export const DivButton = styled.div`

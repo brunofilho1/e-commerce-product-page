@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -9,11 +11,11 @@ export const Container = styled.div`
 
 export const Row = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 16px 0px;
+    padding: 16px 5px;
 
-    > a {
+    > div > a {
         font-size: 14px;
         text-decoration: none;
         color: var(--color-blue);
@@ -24,6 +26,24 @@ export const Row = styled.div`
             border-left: 1px solid var(--color-blue);
             margin-left: 10px;
         }
+    }
+
+    #searchBox {
+        display: flex;
+        align-items: center;
+
+        > img {
+            margin-left: 8px;
+            position: absolute;
+        }
+    }
+
+    #searchInput {
+        width: 300px;
+        padding: 10px;
+        padding-left: 40px;
+        background: #fff;
+        border-radius: 8px;
     }
 `;
 

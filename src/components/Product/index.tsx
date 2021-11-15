@@ -49,8 +49,14 @@ const Product: React.FC = () => {
     return (
         <Container>
             <Row>
-                <a href="#">Compartilhar</a>    
-                <a href="#">Vender um igual</a>    
+                <div>
+                  <a href="#">Compartilhar</a>    
+                  <a href="#">Vender um igual</a>
+                </div>
+                <div id="searchBox">
+                  <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
+                  <input id="searchInput" type="text" />
+                </div>
             </Row>
 
             <Panel>

@@ -16,7 +16,7 @@ import {
 const SellerInfo: React.FC = () => {
     return (
         <Container>
-            <Title>Informações sobre o vendedor</Title>
+            <Title>Vendedor:</Title>
 
             <Seller>
                 <img src="https://github.com/brunofilho1.png" alt="" />
