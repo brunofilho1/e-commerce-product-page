@@ -31,19 +31,23 @@ export const Row = styled.div`
     #searchBox {
         display: flex;
         align-items: center;
+        justify-content: end;
 
-        > img {
-            margin-left: 8px;
+        > i {
+            margin-right: 12px;
             position: absolute;
+            color: var(--color-blue);
         }
     }
 
     #searchInput {
         width: 300px;
         padding: 10px;
-        padding-left: 40px;
+        padding-right: 40px;
         background: #fff;
         border-radius: 8px;
+        
+        outline: none;
     }
 `;
 

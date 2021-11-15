@@ -54,8 +54,8 @@ const Product: React.FC = () => {
                   <a href="#">Vender um igual</a>
                 </div>
                 <div id="searchBox">
-                  <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
-                  <input id="searchInput" type="text" />
+                  <input id="searchInput" type="text" placeholder="Pesquise o que quer..."/>
+                  <i className="fas fa-search"></i>
                 </div>
             </Row>
 
