@@ -15,19 +15,6 @@ export const Row = styled.div`
     align-items: center;
     padding: 16px 5px;
 
-    > div > a {
-        font-size: 14px;
-        text-decoration: none;
-        color: var(--color-blue);
-        padding: 2.5px 0px;
-
-        & + a {
-            padding-left: 10px;
-            border-left: 1px solid var(--color-blue);
-            margin-left: 10px;
-        }
-    }
-
     #searchBox {
         display: flex;
         align-items: center;
@@ -48,6 +35,20 @@ export const Row = styled.div`
         border-radius: 8px;
         
         box-shadow: var(--panel-shadow);
+    }
+
+    > #userInfos {
+        display: flex;
+        gap: 10px;
+    }
+
+    > div > button {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        background-color: #fff;
+        color: var(--color-blue);
+        border-radius: 8px;
     }
 `;
 

@@ -49,13 +49,20 @@ const Product: React.FC = () => {
     return (
         <Container>
             <Row>
-                <div>
-                  <a href="#">Compartilhar</a>    
-                  <a href="#">Vender um igual</a>
-                </div>
+
                 <div id="searchBox">
                   <input id="searchInput" type="text" placeholder="Pesquise o que quer..."/>
                   <i className="fas fa-search"></i>
+                </div>
+                <div id="userInfos">
+                  <button>
+                    <i className="fas fa-user"></i>
+                    Perfil  
+                  </button>
+                  <button>
+                    <i className="fas fa-shopping-cart"></i>
+                    Carrinho  
+                  </button>
                 </div>
             </Row>
 
