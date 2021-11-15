@@ -47,7 +47,7 @@ export const Row = styled.div`
         background: #fff;
         border-radius: 8px;
         
-        outline: none;
+        box-shadow: var(--panel-shadow);
     }
 `;
 
