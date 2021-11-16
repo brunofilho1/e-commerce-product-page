@@ -252,12 +252,14 @@ export const Button = styled.button<ButtonProps>`
 
     color: ${props => props.solid ? 'var(--color-white)' : 'var(--color-blue)'};
     background: ${props => props.solid ? 'var(--color-blue)' : 'var(--color-transparent)'};
-    border: ${props => props.solid ? 'none' : '1px solid var(--color-blue)'};
+    border: ${props => props.solid ? '1px solid transparent' : '1px solid var(--color-blue)'};
 
     cursor: pointer;
 
     &:hover {
-        filter: brightness(1.1);
+        color: ${props => props.solid ? 'var(--color-blue)' : 'var(--color-white)'};
+        background: ${props => props.solid ? 'var(--color-transparent)' : 'var(--color-blue)'};
+        border: ${props => props.solid ? '1px solid var(--color-blue)' : '1px solid var(--color-blue)'};
     }
 
 `;

@@ -46,7 +46,7 @@ const ProductAction: React.FC = () => {
                     <span className="cents">99</span>
                 </PriceRow>
 
-                <InstallmentsInfo>em 3x de R$ 11,67</InstallmentsInfo>
+                <InstallmentsInfo>ou 3x de R$ 11,67</InstallmentsInfo>
             </PriceCard>
 
             <StockStatus>

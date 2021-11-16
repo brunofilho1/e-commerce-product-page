@@ -56,12 +56,16 @@ const Product: React.FC = () => {
                 </div>
                 <div id="userInfos">
                   <button>
-                    <i className="fas fa-user"></i>
-                    Perfil  
+                    <i className="fas fa-heart"></i>
+                    Favoritos  
                   </button>
                   <button>
                     <i className="fas fa-shopping-cart"></i>
                     Carrinho  
+                  </button>
+                  <button>
+                    <i className="fas fa-user"></i>
+                    Perfil  
                   </button>
                 </div>
             </Row>

@@ -33,13 +33,20 @@ export const Row = styled.div`
         padding-right: 40px;
         background: #fff;
         border-radius: 8px;
-        
-        box-shadow: var(--panel-shadow);
+
     }
 
     > #userInfos {
         display: flex;
         gap: 10px;
+
+        > button {
+            cursor: pointer;
+
+            &:hover {
+                background: transparent;
+            }
+        }
     }
 
     > div > button {
